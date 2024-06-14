@@ -51,7 +51,6 @@ def get_str_input(prompt):
 selected_country = random.choice(countries)
 hint_length = 1
 
-
 max_guesses = 15
 
 print(f"\nThe country name starts with '{selected_country[:hint_length]}'.")
