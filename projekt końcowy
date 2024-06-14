@@ -1,6 +1,8 @@
 import random
 import math
 
+print("Let's play the country guessing game!")
+
 # List of countries
 countries = [
     'Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Argentina', 
