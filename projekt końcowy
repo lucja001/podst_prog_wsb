@@ -51,7 +51,7 @@ def get_str_input(prompt):
 selected_country = random.choice(countries)
 hint_length = 1
 
-max_guesses = 15
+max_guesses = 5
 
 print(f"\nThe country name starts with '{selected_country[:hint_length]}'.")
 print(f"You have {max_guesses} chances to guess the country!\n")
@@ -72,7 +72,7 @@ while count < max_guesses:
         print("Incorrect guess. Try again!")
     
    
-    if count % 2 == 0 and hint_length < len(selected_country):
+    if count % 1 == 0 and hint_length < len(selected_country):
         hint_length += 1
         print(f"Hint: The country name starts with '{selected_country[:hint_length]}'.")
 
